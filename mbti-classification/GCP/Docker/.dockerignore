@@ -1,0 +1,13 @@
+__pycache__/
+*.csv
+*.ipynb
+*.log
+*.json
+checkpoints/
+logs/
+outputs/
+.gitattributes
+.gitignore
+.git/
+.DS_Store
+data/
