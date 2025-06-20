@@ -1,25 +1,60 @@
-# MBTI Classification Task
-## 1. Project Overview
-This project classifies personality traits according to Myers-Briggs Type Indicator (MBTI) from text using PySpark for preprocessing and traditional machine learning and tensorflow for training a neural net based on BERT embeddings. It demonstrates scalable NLP pipelines and deep learning for classification. 
+# Classifying MBTI Personality Types from Text
 
-Be aware that although the MBTI is widely used it is also critized when it comes to validity. However I was interested, how well we can deduct from text to the personality of the author.
+*by Moritz Grimm*
 
-## 2. Dataset
-- The Dataset contains user-generated posts labeled with MBTI personality types. They are the result of chats on a forum of the website personalitycafe, where users fill out the questionnaire for the MBTI and their result is publicly available. The Dataset is available on [Kaggle](https://www.kaggle.com/datasets/datasnaek/mbti-type/data).
-- Around 50 posts of about 8000 users were collected along with the persoanlity type of the author. We predict personality from single posts.
+Can we infer a person’s MBTI type from how they write online? 
+This project explores exactly that, using a dataset of 300k+ user-generated posts and comparing both classic machine learning and transformer-based NLP models.
 
-## 3. Approach
-| Step        | Tool        | Description          |
-|-------------|-------------|----------------------|
-|1. Data Preprocessing & Class Machine Learning | PySpark, Pandas (for visualisation of small data parts) | Tokenization, filtering, feature extraction (TF-IDF, word count, etc.) |
-|2. Training an MLP with BERT Embeddings | Tensorflow, Transformers | Train an MLP locally on a sample |
-|3. Cloud Scaling | Google Cloud Vertex AI | Train a BERT model on the full training data on the Google Cloud |
+---
 
-## 4. Structure
-- [notebook](Link to notebook) for demonstrating local training
-- Files for Training on Google Cloud in [this subfolder](link to subfolder)
+## Highlights
 
-## 5. Results
-Show a small table comparing different models (e.g., TF-IDF + Logistic Regression vs. LSTM vs. BERT).
-Add some visualizations (e.g., confusion matrix, feature importance).
+- Critical sociological and methodological reflections on the dataset and the MBTI concept
+- Preprocessing of noisy social media text
+- Word & character features + word count-based models
+- BERT embeddings with a modular PyTorch training pipeline
+- Ablation study & class imbalance strategies
+- Hyperparameter optimization with Optuna
+- Full-scale training on Google Cloud Vertex AI
+
+---
+
+## Executive Summary
+
+This project explores the prediction of MBTI personality types based on user-generated text.  
+Both classical models and transformer-based methods are used, with a focus on reproducibility, automation, and fair evaluation under class imbalance.
+
+A fully documented pipeline supports:
+- Feature importance analysis  
+- End-to-end reproducibility  
+- Modular pipeline supporting both local and cloud-based training
+
+Although it is difficult to make reliable predictions of the MBTI type, the best-performing model achieved a test accuracy of 20.95%, which is more than three times better than random guessing (6.25%) in a 16-class setting.
+
+---
+
+## Resources
+
+- [Open the Notebook in NBViewer](https://nbviewer.org/github/Ryoshuu/Portfolio/blob/main/mbti-classification/mbti_nb.ipynb)
+- [View Full Notebook on GitHub (no support of a clickable Table of Content)](./mbti_nb.ipynb)
+- [Cloud Training Scripts on GitHub](https://github.com/Ryoshuu/Portfolio/tree/main/mbti-classification/GCP)
+
+
+---
+
+## Motivation
+
+This project is part of my personal portfolio and a larger interest in applying NLP to human-generated text data.  
+I am especially interested in transparent, reproducible machine learning — and in understanding how (and if) personality manifests in text.
+
+---
+
+## Technologies
+
+- Python, PySpark, PyTorch, Pandas
+- Matplotlib (Pyplot) and Seaborn for visualization
+- Hugging Face Transformers
+- Optuna for hyperparameter tuning
+- Google Cloud Vertex AI for scalable training
+
   
