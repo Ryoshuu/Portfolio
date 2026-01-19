@@ -7544,13 +7544,12 @@ a.anchor-link {
 
     <span class="n">toc_lines</span> <span class="o">=</span> <span class="p">[</span>
 <span class="w">        </span><span class="sd">"""The following Table of Contents is generated automatically by parsing the notebook's JSON structure and</span>
-<span class="sd">        extracting markdown headers. In **nbviewer**, the Table of Contents is also **clickable** (but not when</span>
-<span class="sd">        viewing the notebook directly on **GitHub**).</span>
+<span class="sd">        extracting markdown headers.</span>
 <span class="sd">        &lt;details&gt;</span>
 <span class="sd">        &lt;summary&gt;How the Table of Contents is Generated (click to expand)&lt;/summary&gt;</span>
 <span class="sd">        There is **no native feature in Jupyter notebooks or nbviewer** to automatically generate and update a</span>
 <span class="sd">        hyperlinked Table of Contents. Existing solutions (e.g., manually writing Markdown lists or relying on browser</span>
-<span class="sd">        extensions) either lack flexibility or are not portable when sharing static views.\n\nTo solve this, we</span>
+<span class="sd">        extensions) either lack flexibility or are not portable when sharing static views.\nTo solve this, we</span>
 <span class="sd">        **directly parse the notebook’s .ipynb JSON file**, identify markdown cells, extract headers up to a chosen</span>
 <span class="sd">        depth, and build the Table of Contents as a Markdown list.</span>
 <span class="sd">        This ensures:\n- Headings are always up to date\n- Hyperlinks follow Jupyter’s internal anchor rules  </span>
@@ -7591,17 +7590,16 @@ a.anchor-link {
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/markdown" tabindex="0">
 <p>The following Table of Contents is generated automatically by parsing the notebook's JSON structure and
-extracting markdown headers. In <strong>nbviewer</strong>, the Table of Contents is also <strong>clickable</strong> (but not when
-viewing the notebook directly on <strong>GitHub</strong>).
+extracting markdown headers.
 <details>
 <summary>How the Table of Contents is Generated (click to expand)</summary>
 There is <strong>no native feature in Jupyter notebooks or nbviewer</strong> to automatically generate and update a
 hyperlinked Table of Contents. Existing solutions (e.g., manually writing Markdown lists or relying on browser
-extensions) either lack flexibility or are not portable when sharing static views.</details></p>
-<p>To solve this, we
+extensions) either lack flexibility or are not portable when sharing static views.
+To solve this, we
 <strong>directly parse the notebook’s .ipynb JSON file</strong>, identify markdown cells, extract headers up to a chosen
 depth, and build the Table of Contents as a Markdown list.
-This ensures:</p>
+This ensures:</details></p>
 <ul>
 <li>Headings are always up to date</li>
 <li>Hyperlinks follow Jupyter’s internal anchor rules<br/>
