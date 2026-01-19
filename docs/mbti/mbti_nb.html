@@ -19321,7 +19321,7 @@ While this training could be executed locally, I chose to run it on Vertex AI to
 <li><strong>Improved Logging:</strong> A dedicated <code>log</code> method was added for more concise and informative logging. While logs are stored in the history, they are printed every 5 epochs on the cloud by default. Logs with high importance (like unfreezing layers) are always printed.</li>
 <li><strong>Cloud Training Initialization:</strong> For training on the cloud, I started with an initialization of the model using the results from the best hyperparameter tuning trial (trial number 6), as discussed earlier.</li>
 </ul>
-<p>These adjustments made the trainer class more robust for cloud training while maintaining full compatibility with previous experiments. You can finde the complete <code>Training.py</code> script <a href="https://github.com/Ryoshuu/Portfolio/blob/main/mbti-classification/GCP/Docker/Training.py">here</a>.</p>
+<p>These adjustments made the trainer class more robust for cloud training while maintaining full compatibility with previous experiments. You can finde the complete <code>Training.py</code> script <a href="https://github.com/Ryoshuu/Portfolio/blob/main/mbti-classification/GCP/Docker/Training.py">here ↑</a>.</p>
 <h4 id="Bash-Pipeline-for-Automated-Training-on-GCP">Bash Pipeline for Automated Training on GCP<a class="anchor-link" href="#Bash-Pipeline-for-Automated-Training-on-GCP">¶</a></h4><p>I created an automatic training pipeline composed of bash scripts, a Dockerfile, and a Python script. The pipeline ensures a smooth and efficient process for training on Google Cloud Vertex AI. Here’s an overview of the components:</p>
 <ul>
 <li><strong>pipeline.sh:</strong> The main script that orchestrates the pipeline by running the subscripts. It also defines and exports the most important variables to be used by the subscripts.</li>
@@ -19342,7 +19342,7 @@ While this training could be executed locally, I chose to run it on Vertex AI to
 </li>
 </ul>
 <p>I put extra care into clean, concise, yet informative logging, while also ensuring that my local home directory remains hidden for privacy when sharing this notebook.</p>
-<p>You can find the cloud-specific training and evaluation code <a href="https://github.com/Ryoshuu/Portfolio/tree/main/mbti-classification/GCP">here</a>.</p>
+<p>You can find the cloud-specific training and evaluation code <a href="https://github.com/Ryoshuu/Portfolio/tree/main/mbti-classification/GCP">here ↑</a>.</p>
 <p>Now we run the bash pipeline and watch it perform in action. The following log includes information about each of the pipeline stages. I took great care to keep the outputs as concise as possible, while still retaining all relevant information for reproducibility, verification, and transparency.</p>
 </div>
 </div>
