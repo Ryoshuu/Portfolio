@@ -35,8 +35,7 @@ Although it is difficult to make reliable predictions of the MBTI type, the best
 
 ## Resources
 
-- [Open the Notebook in NBViewer](https://nbviewer.org/github/Ryoshuu/Portfolio/blob/main/mbti-classification/mbti_nb.ipynb)
-- [View Full Notebook on GitHub (no support of a clickable Table of Content)](./mbti_nb.ipynb)
+- [Open the Notebook](https://ryoshuu.github.io/Portfolio/mbti/mbti_nb.html)
 - [Cloud Training Scripts on GitHub](https://github.com/Ryoshuu/Portfolio/tree/main/mbti-classification/GCP)
 
 
@@ -58,3 +57,4 @@ I am especially interested in transparent, reproducible machine learning — and
 - Google Cloud Vertex AI for scalable training
 
   
+
