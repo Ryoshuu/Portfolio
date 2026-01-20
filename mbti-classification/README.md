@@ -54,9 +54,11 @@ I am especially interested in transparent, reproducible machine learning — and
 - Matplotlib (Pyplot) and Seaborn for visualization
 - Hugging Face Transformers
 - Optuna for hyperparameter tuning
+- Bash scripts for file orchestration and cloud training
 - Google Cloud Vertex AI for scalable training
 
   
+
 
 
 
