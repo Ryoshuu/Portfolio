@@ -9,7 +9,7 @@ This project explores exactly that, using a dataset of 300k+ user-generated post
 
 ## Highlights
 
-- Preprocessing of noisy social media text
+- Preprocessing of noisy social media text using PySpark
 - Word & character features + word count-based models
 - BERT embeddings with a modular PyTorch training pipeline
 - Ablation study & class imbalance strategies
@@ -57,6 +57,7 @@ I am especially interested in transparent, reproducible machine learning — and
 - Google Cloud Vertex AI for scalable training
 
   
+
 
 
 
