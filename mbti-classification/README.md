@@ -1,4 +1,4 @@
-# Classifying MBTI Personality Types from Text
+#Classifying MBTI Personality Types from Text
 
 *by Moritz Grimm*
 
@@ -57,6 +57,7 @@ I am especially interested in transparent, reproducible machine learning — and
 - Google Cloud Vertex AI for scalable training
 
   
+
 
 
 
