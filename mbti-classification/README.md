@@ -58,7 +58,6 @@ I am especially interested in transparent, reproducible machine learning — and
 - Bash scripts for file orchestration and cloud training
 - Google Cloud Vertex AI for scalable training
 
-  
 
 
 
