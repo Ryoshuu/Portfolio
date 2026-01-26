@@ -8,7 +8,7 @@ Predicting the future is one of humanity’s oldest ambitions. In this project, 
 
 ## Highlights
 
-- Feature engineering from date, holiday, and event data  
+- Careful calendar, holiday- and event-distance, and regime-aware feature engineering for retail forecasting
 - Clustering 1,784 time series by their shape  
 - A custom fully vectorized recursive LightGBM model using lagged features  
 - Training a Temporal Fusion Transformer with PyTorch Forecasting  
@@ -51,3 +51,4 @@ I am particularly interested in transparent, reproducible machine learning — a
 - Python, Pandas, scikit-learn, PyTorch  
 - Matplotlib (pyplot) and Seaborn for visualization  
 - Optuna for hyperparameter tuning  
+
