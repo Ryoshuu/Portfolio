@@ -8,7 +8,7 @@ Predicting the future is one of humanity’s oldest ambitions. In this project, 
 
 ## Highlights
 
-- Careful calendar, holiday- and event-distance, and regime-aware feature engineering for retail forecasting
+- Careful calendar, holiday-distance, event-distance, and regime-aware feature engineering for retail forecasting
 - Clustering 1,784 time series by their shape  
 - A custom fully vectorized recursive LightGBM model using lagged features  
 - Training a Temporal Fusion Transformer with PyTorch Forecasting  
@@ -34,8 +34,8 @@ Although the dataset is noisy and affected by unpredictable spikes and regime sh
 
 ## Resources
 
-- [Rendered HTML version of the notebook](https://ryoshuu.github.io/Portfolio/favorita-sales-forecasts/favorita_nb.html)  
-  *(The executable notebook is maintained separately and available on request.)*
+- [Rendered HTML version of the notebook](https://ryoshuu.github.io/Portfolio/favorita/favorita_nb.html)  
+  *(The executable notebook is maintained separately and available on request.)* 
 
 ---
 
@@ -51,4 +51,5 @@ I am particularly interested in transparent, reproducible machine learning — a
 - Python, Pandas, scikit-learn, PyTorch  
 - Matplotlib (pyplot) and Seaborn for visualization  
 - Optuna for hyperparameter tuning  
+
 
