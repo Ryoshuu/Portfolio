@@ -2,7 +2,7 @@
 
 Welcome to the repository of my personal portfolio showcasing selected machine learning projects I have worked on so far. 
 
-The projects focus on end-to-end problem solving, including data preparation, modeling choices, evaluation, and practical trade-offs.
+The projects focuses on end-to-end problem solving, including data preparation, modeling choices, evaluation, and practical trade-offs.
 
 You can explore the individual project folders for details:
 - [Favorita Sales Forecasts](https://github.com/Ryoshuu/Portfolio/tree/main/favorita-sales-forecasts) – Time series forecasting on multi-store, multi-product sales data with a focus on temporal structure and scalability.
